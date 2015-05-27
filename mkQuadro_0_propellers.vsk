@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<KinematicModel VERSION="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.vicon.com/Schemas/ViconVST.xsd">
+
+  <Parameters>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_propellers_Unlabeled38672_x" PRIOR="-2.03756332397461" SD="1.00000002004088e+020" VALUE="-2.03756332397461"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_propellers_Unlabeled38672_y" PRIOR="-231.429382324219" SD="1.00000002004088e+020" VALUE="-231.429382324219"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_propellers_Unlabeled38672_z" PRIOR="2.27016067504883" SD="1.00000002004088e+020" VALUE="2.27016067504883"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_propellers_Unlabeled38673_x" PRIOR="232.20703125" SD="1.00000002004088e+020" VALUE="232.20703125"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_propellers_Unlabeled38673_y" PRIOR="-3.76141357421875" SD="1.00000002004088e+020" VALUE="-3.76141357421875"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_propellers_Unlabeled38673_z" PRIOR="-2.02375411987305" SD="1.00000002004088e+020" VALUE="-2.02375411987305"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_propellers_Unlabeled38675_x" PRIOR="2.34576797485352" SD="1.00000002004088e+020" VALUE="2.34576797485352"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_propellers_Unlabeled38675_y" PRIOR="231.226379394531" SD="1.00000002004088e+020" VALUE="231.226379394531"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_propellers_Unlabeled38675_z" PRIOR="-1.28319931030273" SD="1.00000002004088e+020" VALUE="-1.28319931030273"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_propellers_Unlabeled38674_x" PRIOR="-232.515243530273" SD="1.00000002004088e+020" VALUE="-232.515243530273"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_propellers_Unlabeled38674_y" PRIOR="3.96441650390625" SD="1.00000002004088e+020" VALUE="3.96441650390625"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_propellers_Unlabeled38674_z" PRIOR="1.03679275512695" SD="1.00000002004088e+020" VALUE="1.03679275512695"/>
+  </Parameters>
+
+  <Skeleton>
+    <Segment BOUNDS="-50 -50 -50 50 50 50 " CONTEXT="General" INERTIA="0 0 0 " MASS="0 " MASS-CENTRE="0 0 0 " NAME="mkQuadro_0_propellers" RGB="255 164 0">
+      <JointFree BOUNDS="0 0 0 0 0 0 0 0 0 0 0 0" COVARIANCE="2.46490001678467 0 0 0 0 0  0 2.46490001678467 0 0 0 0  0 0 246.490005493164 0 0 0  0 0 0 1000000 0 0  0 0 0 0 1000000 0  0 0 0 0 0 1000000  " MEAN="0 0 0 0 0 0" NAME="World_mkQuadro_0_propellers" POST-ORIENTATION="0 0 0" POST-POSITION="0 0 0" PRE-ORIENTATION="0 0 0" PRE-POSITION="0 0 0" SIGNS="+ + + + + + " T="* * * * * * ">
+        <JointTemplate COVARIANCE="2.46490001678467 0 0 0 0 0  0 2.46490001678467 0 0 0 0  0 0 246.490005493164 0 0 0  0 0 0 1000000 0 0  0 0 0 0 1000000 0  0 0 0 0 0 1000000  " MEAN="0 0 0 0 0 0" POST-ORIENTATION="0 0 0 " POST-POSITION="0 0 0 " PRE-ORIENTATION="0 0 0 " PRE-POSITION="0 0 0 " TPOSE-COVARIANCE="0.100000001490116 0 0 0 0 0  0 0.100000001490116 0 0 0 0  0 0 0.100000001490116 0 0 0  0 0 0 0.100000001490116 0 0  0 0 0 0 0.100000001490116 0  0 0 0 0 0 0.100000001490116  " TPOSE-MEAN="0 0 0 0 0 0"/>
+      </JointFree>
+    </Segment>
+  </Skeleton>
+
+  <MarkerSet>
+    <Markers>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="Unlabeled38672" POSITION="-2.03756 -231.429 2.27016" RADIUS="12.5" RGB="255 164 0" SEGMENT="mkQuadro_0_propellers" STATUS="required">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadro_0_propellers_Unlabeled38672_x' 'mkQuadro_0_propellers_Unlabeled38672_y' 'mkQuadro_0_propellers_Unlabeled38672_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="Unlabeled38673" POSITION="232.207 -3.76141 -2.02375" RADIUS="12.5" RGB="255 164 0" SEGMENT="mkQuadro_0_propellers" STATUS="optional">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadro_0_propellers_Unlabeled38673_x' 'mkQuadro_0_propellers_Unlabeled38673_y' 'mkQuadro_0_propellers_Unlabeled38673_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="Unlabeled38675" POSITION="2.34577 231.226 -1.2832" RADIUS="12.5" RGB="255 164 0" SEGMENT="mkQuadro_0_propellers" STATUS="optional">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadro_0_propellers_Unlabeled38675_x' 'mkQuadro_0_propellers_Unlabeled38675_y' 'mkQuadro_0_propellers_Unlabeled38675_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="Unlabeled38674" POSITION="-232.515 3.96442 1.03679" RADIUS="12.5" RGB="255 164 0" SEGMENT="mkQuadro_0_propellers" STATUS="optional">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadro_0_propellers_Unlabeled38674_x' 'mkQuadro_0_propellers_Unlabeled38674_y' 'mkQuadro_0_propellers_Unlabeled38674_z'"/>
+      </Marker>
+    </Markers>
+    <Sticks>
+      <Stick MARKER1="Unlabeled38672" MARKER2="Unlabeled38673" RGB="255 164 0"/>
+      <Stick MARKER1="Unlabeled38672" MARKER2="Unlabeled38675" RGB="255 164 0"/>
+      <Stick MARKER1="Unlabeled38672" MARKER2="Unlabeled38674" RGB="255 164 0"/>
+      <Stick MARKER1="Unlabeled38673" MARKER2="Unlabeled38675" RGB="255 164 0"/>
+      <Stick MARKER1="Unlabeled38673" MARKER2="Unlabeled38674" RGB="255 164 0"/>
+      <Stick MARKER1="Unlabeled38675" MARKER2="Unlabeled38674" RGB="255 164 0"/>
+    </Sticks>
+  </MarkerSet>
+
+  <Alignment/>
+
+</KinematicModel>

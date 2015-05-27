@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<KinematicModel VERSION="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.vicon.com/Schemas/ViconVST.xsd">
+
+  <Parameters>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadroXL_0_Unlabeled17976_z" PRIOR="0" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="0"/>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadroXL_0_Unlabeled17975_z" PRIOR="0" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="0"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_marker1_x" PRIOR="485.446990966797" SD="1.00000002004088e+020" VALUE="486.0625"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_marker1_y" PRIOR="0" SD="1.00000002004088e+020" VALUE="0.820416569709778"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_marker1_z" PRIOR="0" SD="1.00000002004088e+020" VALUE="-0.0971988663077354"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_marker2_y" PRIOR="-480.609985351563" SD="1.00000002004088e+020" VALUE="-480.85498046875"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_marker2_z" PRIOR="0" SD="1.00000002004088e+020" VALUE="0.00641622440889478"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_marker3_x" PRIOR="61.7789726257324" SD="1.00000002004088e+020" VALUE="62.2335624694824"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_marker3_y" PRIOR="-136.017318725586" SD="1.00000002004088e+020" VALUE="-136.119110107422"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_marker3_z" PRIOR="-118.548698425293" SD="1.00000002004088e+020" VALUE="-118.544425964355"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_marker4_x" PRIOR="-90.9647445678711" SD="1.00000002004088e+020" VALUE="-90.9990310668945"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_marker4_y" PRIOR="101.840919494629" SD="1.00000002004088e+020" VALUE="101.367897033691"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_marker4_z" PRIOR="6.43449020385742" SD="1.00000002004088e+020" VALUE="6.53149604797363"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_Unlabeled17976_x" PRIOR="295.399993896484" SD="1.00000002004088e+020" VALUE="295.918884277344"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_Unlabeled17976_y" PRIOR="0" SD="1.00000002004088e+020" VALUE="-0.0998700186610222"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_Unlabeled17975_x" PRIOR="0" SD="1.00000002004088e+020" VALUE="-0.561676502227783"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_Unlabeled17975_y" PRIOR="-294.946014404297" SD="1.00000002004088e+020" VALUE="-294.23876953125"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_Unlabeled17977_x" PRIOR="-282.087554931641" SD="1.00000002004088e+020" VALUE="-276.994232177734"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_Unlabeled17977_y" PRIOR="7.13940811157227" SD="1.00000002004088e+020" VALUE="0.870344281196594"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_Unlabeled17977_z" PRIOR="-57.6110496520996" SD="1.00000002004088e+020" VALUE="-40.18603515625"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_Unlabeled17978_x" PRIOR="7.68668746948242" SD="1.00000002004088e+020" VALUE="10.2071800231934"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_Unlabeled17978_y" PRIOR="281.385803222656" SD="1.00000002004088e+020" VALUE="277.82080078125"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_Unlabeled17978_z" PRIOR="-54.9337158203125" SD="1.00000002004088e+020" VALUE="-39.4707717895508"/>
+  </Parameters>
+
+  <Skeleton>
+    <Segment BOUNDS="-50 -50 -50 50 50 50 " CONTEXT="General" INERTIA="0 0 0 " MASS="0 " MASS-CENTRE="0 0 0 " NAME="mkQuadroXL_0" RGB="255 164 0">
+      <JointFree BOUNDS="0 0 0 0 0 0 0 0 0 0 0 0" COVARIANCE="2.46490001678467 0 0 0 0 0  0 2.46490001678467 0 0 0 0  0 0 246.490005493164 0 0 0  0 0 0 1000000 0 0  0 0 0 0 1000000 0  0 0 0 0 0 1000000  " MEAN="0 0 0 0 0 0" NAME="World_mkQuadroXL_0" POST-ORIENTATION="0 0 0" POST-POSITION="0 0 0" PRE-ORIENTATION="0 0 0" PRE-POSITION="0 0 0" SIGNS="+ + + + + + " T="* * * * * * ">
+        <JointTemplate COVARIANCE="2.46490001678467 0 0 0 0 0  0 2.46490001678467 0 0 0 0  0 0 246.490005493164 0 0 0  0 0 0 1000000 0 0  0 0 0 0 1000000 0  0 0 0 0 0 1000000  " MEAN="0 0 0 0 0 0" POST-ORIENTATION="0 0 0 " POST-POSITION="0 0 0 " PRE-ORIENTATION="0 0 0 " PRE-POSITION="0 0 0 " TPOSE-COVARIANCE="0.100000001490116 0 0 0 0 0  0 0.100000001490116 0 0 0 0  0 0 0.100000001490116 0 0 0  0 0 0 0.100000001490116 0 0  0 0 0 0 0.100000001490116 0  0 0 0 0 0 0.100000001490116  " TPOSE-MEAN="0 0 0 0 0 0"/>
+      </JointFree>
+    </Segment>
+  </Skeleton>
+
+  <MarkerSet>
+    <Markers>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="marker1" POSITION="486.063 0.820417 -0.0971989" RADIUS="12.5" RGB="255 164 0" SEGMENT="mkQuadroXL_0" STATUS="required">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadroXL_0_marker1_x' 'mkQuadroXL_0_marker1_y' 'mkQuadroXL_0_marker1_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="marker2" POSITION="0 -480.855 0.00641622" RADIUS="12.5" RGB="255 164 0" SEGMENT="mkQuadroXL_0" STATUS="optional">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="0 'mkQuadroXL_0_marker2_y' 'mkQuadroXL_0_marker2_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="marker3" POSITION="62.2336 -136.119 -118.544" RADIUS="12.5" RGB="255 164 0" SEGMENT="mkQuadroXL_0" STATUS="optional">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadroXL_0_marker3_x' 'mkQuadroXL_0_marker3_y' 'mkQuadroXL_0_marker3_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="marker4" POSITION="-90.999 101.368 6.5315" RADIUS="12.5" RGB="255 164 0" SEGMENT="mkQuadroXL_0" STATUS="optional">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadroXL_0_marker4_x' 'mkQuadroXL_0_marker4_y' 'mkQuadroXL_0_marker4_z'"/>
+      </Marker>
+    </Markers>
+    <Sticks>
+      <Stick MARKER1="marker1" MARKER2="marker2" RGB="255 164 0"/>
+      <Stick MARKER1="marker1" MARKER2="marker3" RGB="255 164 0"/>
+      <Stick MARKER1="marker1" MARKER2="marker4" RGB="255 164 0"/>
+      <Stick MARKER1="marker2" MARKER2="marker3" RGB="255 164 0"/>
+      <Stick MARKER1="marker2" MARKER2="marker4" RGB="255 164 0"/>
+      <Stick MARKER1="marker3" MARKER2="marker4" RGB="255 164 0"/>
+    </Sticks>
+  </MarkerSet>
+
+  <Alignment/>
+
+</KinematicModel>

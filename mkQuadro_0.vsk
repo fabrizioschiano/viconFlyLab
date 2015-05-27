@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<KinematicModel VERSION="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.vicon.com/Schemas/ViconVST.xsd">
+
+  <Parameters>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadro_0_Unlabeled34226_x" PRIOR="231.505004882813" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="231.505004882813"/>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadro_0_Unlabeled34226_y" PRIOR="0" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="0"/>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadro_0_Unlabeled34226_z" PRIOR="0" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="0"/>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadro_0_Unlabeled34427_x" PRIOR="0" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="0"/>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadro_0_Unlabeled34427_y" PRIOR="-232.179000854492" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="-232.179000854492"/>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadro_0_Unlabeled34427_z" PRIOR="0" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="0"/>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadro_0_Unlabeled34316_x" PRIOR="-231.199005126953" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="-231.199005126953"/>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadro_0_Unlabeled34316_y" PRIOR="0" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="0"/>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadro_0_Unlabeled34316_z" PRIOR="0" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="0"/>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadro_0_Unlabeled34241_x" PRIOR="0" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="0"/>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadro_0_Unlabeled34241_y" PRIOR="232.611999511719" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="232.611999511719"/>
+    <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadro_0_Unlabeled34241_z" PRIOR="0" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="0"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_Unlabeled34150_x" PRIOR="2.14779710769653" SD="1.00000002004088e+020" VALUE="422.330749511719"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_Unlabeled34150_y" PRIOR="-422.755065917969" SD="1.00000002004088e+020" VALUE="-8.02818298339844"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_Unlabeled34150_z" PRIOR="-42.2678337097168" SD="1.00000002004088e+020" VALUE="45.7485961914063"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_Unlabeled34352_x" PRIOR="398.355224609375" SD="1.00000002004088e+020" VALUE="-4.64811897277832"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_Unlabeled34352_y" PRIOR="-0.93812769651413" SD="1.00000002004088e+020" VALUE="-398.602386474609"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_Unlabeled34352_z" PRIOR="-51.9151802062988" SD="1.00000002004088e+020" VALUE="49.3115196228027"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_Unlabeled34344_x" PRIOR="-31.5054702758789" SD="1.00000002004088e+020" VALUE="-1.89065062999725"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_Unlabeled34344_y" PRIOR="2.51293444633484" SD="1.00000002004088e+020" VALUE="31.6913318634033"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_Unlabeled34344_z" PRIOR="20.3208694458008" SD="1.00000002004088e+020" VALUE="-20.0547409057617"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_Unlabeled34419_x" PRIOR="-80.7601470947266" SD="1.00000002004088e+020" VALUE="82.5218276977539"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_Unlabeled34419_y" PRIOR="-81.7829284667969" SD="1.00000002004088e+020" VALUE="79.4060592651367"/>
+    <Parameter HIDDEN="1" NAME="mkQuadro_0_Unlabeled34419_z" PRIOR="-41.5344276428223" SD="1.00000002004088e+020" VALUE="42.7999572753906"/>
+  </Parameters>
+
+  <Skeleton>
+    <Segment BOUNDS="-50 -50 -50 50 50 50 " CONTEXT="General" INERTIA="0 0 0 " MASS="0 " MASS-CENTRE="0 0 0 " NAME="mkQuadro_0" RGB="255 164 0">
+      <JointFree BOUNDS="0 0 0 0 0 0 0 0 0 0 0 0" COVARIANCE="2.46490001678467 0 0 0 0 0  0 2.46490001678467 0 0 0 0  0 0 246.490005493164 0 0 0  0 0 0 1000000 0 0  0 0 0 0 1000000 0  0 0 0 0 0 1000000  " MEAN="0 0 0 0 0 0" NAME="World_mkQuadro_0" POST-ORIENTATION="0 0 0" POST-POSITION="0 0 0" PRE-ORIENTATION="0 0 0" PRE-POSITION="0 0 0" SIGNS="+ + + + + + " T="* * * * * * ">
+        <JointTemplate COVARIANCE="2.46490001678467 0 0 0 0 0  0 2.46490001678467 0 0 0 0  0 0 246.490005493164 0 0 0  0 0 0 1000000 0 0  0 0 0 0 1000000 0  0 0 0 0 0 1000000  " MEAN="0 0 0 0 0 0" POST-ORIENTATION="0 0 0 " POST-POSITION="0 0 0 " PRE-ORIENTATION="0 0 0 " PRE-POSITION="0 0 0 " TPOSE-COVARIANCE="0.100000001490116 0 0 0 0 0  0 0.100000001490116 0 0 0 0  0 0 0.100000001490116 0 0 0  0 0 0 0.100000001490116 0 0  0 0 0 0 0.100000001490116 0  0 0 0 0 0 0.100000001490116  " TPOSE-MEAN="0 0 0 0 0 0"/>
+      </JointFree>
+    </Segment>
+  </Skeleton>
+
+  <MarkerSet>
+    <Markers>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="marker1" POSITION="422.331 -8.02818 45.7486" RADIUS="22.5" RGB="255 164 0" SEGMENT="mkQuadro_0" STATUS="required">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadro_0_Unlabeled34150_x' 'mkQuadro_0_Unlabeled34150_y' 'mkQuadro_0_Unlabeled34150_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="marker2" POSITION="-4.64812 -398.602 49.3115" RADIUS="22.5" RGB="255 164 0" SEGMENT="mkQuadro_0" STATUS="required">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadro_0_Unlabeled34352_x' 'mkQuadro_0_Unlabeled34352_y' 'mkQuadro_0_Unlabeled34352_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="marker3" POSITION="-1.89065 31.6913 -20.0547" RADIUS="22.5" RGB="255 164 0" SEGMENT="mkQuadro_0" STATUS="required">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadro_0_Unlabeled34344_x' 'mkQuadro_0_Unlabeled34344_y' 'mkQuadro_0_Unlabeled34344_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="marker4" POSITION="82.5218 79.4061 42.8" RADIUS="22.5" RGB="255 164 0" SEGMENT="mkQuadro_0" STATUS="required">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadro_0_Unlabeled34419_x' 'mkQuadro_0_Unlabeled34419_y' 'mkQuadro_0_Unlabeled34419_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="markerProp1" POSITION="231.505 0 0" RADIUS="12.5" RGB="255 164 0" SEGMENT="mkQuadro_0" STATUS="constraint">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadro_0_Unlabeled34226_x' 'mkQuadro_0_Unlabeled34226_y' 'mkQuadro_0_Unlabeled34226_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="markerProp2" POSITION="0 -232.179 0" RADIUS="12.5" RGB="255 164 0" SEGMENT="mkQuadro_0" STATUS="constraint">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadro_0_Unlabeled34427_x' 'mkQuadro_0_Unlabeled34427_y' 'mkQuadro_0_Unlabeled34427_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="markerProp3" POSITION="-231.199 0 0" RADIUS="12.5" RGB="255 164 0" SEGMENT="mkQuadro_0" STATUS="constraint">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadro_0_Unlabeled34316_x' 'mkQuadro_0_Unlabeled34316_y' 'mkQuadro_0_Unlabeled34316_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="markerProp4" POSITION="0 232.612 0" RADIUS="12.5" RGB="255 164 0" SEGMENT="mkQuadro_0" STATUS="constraint">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'mkQuadro_0_Unlabeled34241_x' 'mkQuadro_0_Unlabeled34241_y' 'mkQuadro_0_Unlabeled34241_z'"/>
+      </Marker>
+    </Markers>
+    <Sticks>
+      <Stick MARKER1="marker1" MARKER2="marker2" RGB="255 164 0"/>
+      <Stick MARKER1="marker1" MARKER2="marker3" RGB="255 164 0"/>
+      <Stick MARKER1="marker1" MARKER2="marker4" RGB="255 164 0"/>
+      <Stick MARKER1="marker1" MARKER2="markerProp1" RGB="255 164 0"/>
+      <Stick MARKER1="marker1" MARKER2="markerProp2" RGB="255 164 0"/>
+      <Stick MARKER1="marker1" MARKER2="markerProp3" RGB="255 164 0"/>
+      <Stick MARKER1="marker1" MARKER2="markerProp4" RGB="255 164 0"/>
+      <Stick MARKER1="marker2" MARKER2="marker3" RGB="255 164 0"/>
+      <Stick MARKER1="marker2" MARKER2="marker4" RGB="255 164 0"/>
+      <Stick MARKER1="marker2" MARKER2="markerProp1" RGB="255 164 0"/>
+      <Stick MARKER1="marker2" MARKER2="markerProp2" RGB="255 164 0"/>
+      <Stick MARKER1="marker2" MARKER2="markerProp3" RGB="255 164 0"/>
+      <Stick MARKER1="marker2" MARKER2="markerProp4" RGB="255 164 0"/>
+      <Stick MARKER1="marker3" MARKER2="marker4" RGB="255 164 0"/>
+      <Stick MARKER1="marker3" MARKER2="markerProp1" RGB="255 164 0"/>
+      <Stick MARKER1="marker3" MARKER2="markerProp2" RGB="255 164 0"/>
+      <Stick MARKER1="marker3" MARKER2="markerProp3" RGB="255 164 0"/>
+      <Stick MARKER1="marker3" MARKER2="markerProp4" RGB="255 164 0"/>
+      <Stick MARKER1="marker4" MARKER2="markerProp1" RGB="255 164 0"/>
+      <Stick MARKER1="marker4" MARKER2="markerProp2" RGB="255 164 0"/>
+      <Stick MARKER1="marker4" MARKER2="markerProp3" RGB="255 164 0"/>
+      <Stick MARKER1="marker4" MARKER2="markerProp4" RGB="255 164 0"/>
+      <Stick MARKER1="markerProp1" MARKER2="markerProp2" RGB="255 164 0"/>
+      <Stick MARKER1="markerProp1" MARKER2="markerProp3" RGB="255 164 0"/>
+      <Stick MARKER1="markerProp1" MARKER2="markerProp4" RGB="255 164 0"/>
+      <Stick MARKER1="markerProp2" MARKER2="markerProp3" RGB="255 164 0"/>
+      <Stick MARKER1="markerProp2" MARKER2="markerProp4" RGB="255 164 0"/>
+      <Stick MARKER1="markerProp3" MARKER2="markerProp4" RGB="255 164 0"/>
+    </Sticks>
+  </MarkerSet>
+
+  <Alignment/>
+
+</KinematicModel>
