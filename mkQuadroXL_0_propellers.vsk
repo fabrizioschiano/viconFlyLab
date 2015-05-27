@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<KinematicModel VERSION="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.vicon.com/Schemas/ViconVST.xsd">
+<KinematicModel MODEL="mkQuadroXL_0_propellers" VERSION="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.vicon.com/Schemas/ViconVST.xsd">
 
   <Parameters>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25170_x" PRIOR="-3.50336790084839" SD="1.00000002004088e+020" VALUE="-3.50336790084839"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25170_y" PRIOR="-285.181243896484" SD="1.00000002004088e+020" VALUE="-285.181243896484"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25170_z" PRIOR="0.018218994140625" SD="1.00000002004088e+020" VALUE="0.018218994140625"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25169_x" PRIOR="285.742767333984" SD="1.00000002004088e+020" VALUE="285.742767333984"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25169_y" PRIOR="-2.24188828468323" SD="1.00000002004088e+020" VALUE="-2.24188828468323"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25169_z" PRIOR="-0.058319091796875" SD="1.00000002004088e+020" VALUE="-0.058319091796875"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25171_y" PRIOR="284.554840087891" SD="1.00000002004088e+020" VALUE="284.554840087891"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25171_z" PRIOR="-0.213638305664063" SD="1.00000002004088e+020" VALUE="-0.213638305664063"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25172_x" PRIOR="-282.377258300781" SD="1.00000002004088e+020" VALUE="-282.377258300781"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25172_y" PRIOR="2.86830568313599" SD="1.00000002004088e+020" VALUE="2.86830568313599"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25172_z" PRIOR="0.253738403320313" SD="1.00000002004088e+020" VALUE="0.253738403320313"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25170_x" PRIOR="-3.50336790084839" SD="0" VALUE="-3.50336790084839"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25170_y" PRIOR="-285.181243896484" SD="0" VALUE="-285.181243896484"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25170_z" PRIOR="0.018218994140625" SD="0" VALUE="0.018218994140625"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25169_x" PRIOR="285.742767333984" SD="0" VALUE="285.742767333984"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25169_y" PRIOR="-2.24188828468323" SD="0" VALUE="-2.24188828468323"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25169_z" PRIOR="-0.058319091796875" SD="0" VALUE="-0.058319091796875"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25171_y" PRIOR="284.554840087891" SD="0" VALUE="284.554840087891"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25171_z" PRIOR="-0.213638305664063" SD="0" VALUE="-0.213638305664063"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25172_x" PRIOR="-282.377258300781" SD="0" VALUE="-282.377258300781"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25172_y" PRIOR="2.86830568313599" SD="0" VALUE="2.86830568313599"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_propellers_Unlabeled25172_z" PRIOR="0.253738403320313" SD="0" VALUE="0.253738403320313"/>
   </Parameters>
 
   <Skeleton>

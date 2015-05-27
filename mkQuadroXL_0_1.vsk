@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<KinematicModel VERSION="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.vicon.com/Schemas/ViconVST.xsd">
+<KinematicModel MODEL="mkQuadroXL_0_1" VERSION="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.vicon.com/Schemas/ViconVST.xsd">
 
   <Parameters>
     <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23218_x" PRIOR="284.792999267578" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="284.792999267578"/>
@@ -14,18 +14,18 @@
     <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23227_x" PRIOR="0" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="0"/>
     <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23227_y" PRIOR="283.095001220703" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="283.095001220703"/>
     <StaticParameter ADVANCED="1" HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23227_z" PRIOR="0" QUANTITY="length" READONLY="1" REQUIRED="0" VALUE="0"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23260_x" PRIOR="-11.0472412109375" SD="1.00000002004088e+020" VALUE="480.341827392578"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23260_y" PRIOR="-479.914093017578" SD="1.00000002004088e+020" VALUE="5.92252540588379"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23260_z" PRIOR="-72.7168960571289" SD="1.00000002004088e+020" VALUE="73.2456207275391"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23291_x" PRIOR="474.355865478516" SD="1.00000002004088e+020" VALUE="8.05740261077881"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23291_y" PRIOR="-11.261679649353" SD="1.00000002004088e+020" VALUE="-475.763122558594"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23291_z" PRIOR="-76.3316116333008" SD="1.00000002004088e+020" VALUE="76.7467498779297"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23290_x" PRIOR="134.938354492188" SD="1.00000002004088e+020" VALUE="63.8964195251465"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23290_y" PRIOR="-64.4966354370117" SD="1.00000002004088e+020" VALUE="-136.803802490234"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23290_z" PRIOR="50.4871940612793" SD="1.00000002004088e+020" VALUE="-50.0329856872559"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23292_x" PRIOR="-102.749237060547" SD="1.00000002004088e+020" VALUE="-94.9150009155273"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23292_y" PRIOR="96.1155014038086" SD="1.00000002004088e+020" VALUE="102.10587310791"/>
-    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23292_z" PRIOR="-64.7121734619141" SD="1.00000002004088e+020" VALUE="65.1070098876953"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23260_x" PRIOR="-11.0472412109375" SD="0" VALUE="480.341827392578"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23260_y" PRIOR="-479.914093017578" SD="0" VALUE="5.92252540588379"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23260_z" PRIOR="-72.7168960571289" SD="0" VALUE="73.2456207275391"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23291_x" PRIOR="474.355865478516" SD="0" VALUE="8.05740261077881"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23291_y" PRIOR="-11.261679649353" SD="0" VALUE="-475.763122558594"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23291_z" PRIOR="-76.3316116333008" SD="0" VALUE="76.7467498779297"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23290_x" PRIOR="134.938354492188" SD="0" VALUE="63.8964195251465"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23290_y" PRIOR="-64.4966354370117" SD="0" VALUE="-136.803802490234"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23290_z" PRIOR="50.4871940612793" SD="0" VALUE="-50.0329856872559"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23292_x" PRIOR="-102.749237060547" SD="0" VALUE="-94.9150009155273"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23292_y" PRIOR="96.1155014038086" SD="0" VALUE="102.10587310791"/>
+    <Parameter HIDDEN="1" NAME="mkQuadroXL_0_1_Unlabeled23292_z" PRIOR="-64.7121734619141" SD="0" VALUE="65.1070098876953"/>
   </Parameters>
 
   <Skeleton>
